@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import "desktop4.css";
+
+nav{
+height: auto;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+main{
+  height: 1050px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#grid1{
+
+  display: grid;
+  grid-template-areas: "col1" "col2";
+  grid-template-rows: 430px 180px;
+  grid-template-columns: 480px;
+  margin: 10px;
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+
+
+}

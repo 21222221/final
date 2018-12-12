@@ -1,0 +1,64 @@
+@import "desktop2.css";
+
+nav{
+height: auto;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+
+
+#grid1{
+
+  display: grid;
+  grid-template-areas: "col1" "col2";
+  grid-template-rows: 280px 280px;
+  grid-template-columns: 480px;
+  margin: 10px;
+  height: 600px;
+  text-align: justify;
+  width: 270px;
+  margin: 0 auto;
+
+
+}
+
+main{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 0px;
+}
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col4" "col3";
+  grid-template-rows: 320px 320px;
+  grid-template-columns: 480px;
+  margin: 10px;
+  text-align: justify;
+  width: 270px;
+  margin: 0 auto;
+  grid-row-gap: 80px;
+
+}
+
+#col3{
+  grid-area: col3;
+  background-color:white;
+  height: 270px;
+  padding: 10px;
+  margin: 30px;
+}
+/*#col4{
+  grid-area: col4;
+  background-color: white;
+  height: 370px;
+  padding: 10px;
+
+}*/
+#arroz{
+  height: 300px;
+}

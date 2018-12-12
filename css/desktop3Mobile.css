@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import "desktop3.css";
+
+nav{
+height: auto;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+main{
+  height: 1050px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#grid1{
+
+  display: grid;
+  grid-template-areas: "col1" "col2";
+  grid-template-rows: 50px 180px;
+  grid-template-columns: 480px;
+  margin: 10px;
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+
+
+}
+#col1{
+  grid-area: col1;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+/*main{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 0px;
+}*/
+
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col4" "col3";
+  grid-template-rows: 320px 320px;
+  grid-template-columns: 480px;
+  margin: 10px;
+  text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+  grid-row-gap: 80px;
+
+}
+
+#col3{
+  grid-area: col3;
+  background-color:white;
+  height: 270px;
+  padding: 10px;
+  margin: 30px;
+}
+
+#holo{
+  font-size: 90px;
+  width: 60%;
+  margin: 0 auto;
+}

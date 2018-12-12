@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+body{
+  font-family: "PT Sans", "sans";
+  text-align: justify;
+
+}
+
+/*main{
+  width: 80%;
+  margin: 0 auto;
+
+}*/
+
+nav{
+  top:40%;
+  background: radial-gradient(#f2ccff, transparent);
+  width:100%;
+  margin:0 auto;
+  font-family: "PT Sans", "sans";
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin: 100px;
+
+
+}
+nav ul li a:hover{
+  color: gray;
+}
+.item {
+  width: 220px;
+  margin: 10px;
+  float: left;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 1fr;
+  grid-template-columns:  1fr 1fr;
+  grid-column-gap: 30px;
+  margin: 10px auto;
+    text-align: center;
+    width: 80%;
+}
+#col1{
+  grid-area: col1;
+
+}
+#col2{
+  grid-area: col2;
+}
+
+#holo{
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+p{
+  text-align: justify;
+}
